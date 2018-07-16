@@ -4,7 +4,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-import LandingPage from './LandingPage';
+import LandingPage from './LandingPage'
 
 
 const Routes = (props) => (

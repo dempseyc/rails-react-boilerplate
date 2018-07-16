@@ -1,5 +1,6 @@
 import React from 'react'
 import QuoteDisplay from './QuoteDisplay'
+import CocktailUI from './CocktailUI'
 
 class LandingPage extends React.Component {
   render () {
@@ -7,6 +8,7 @@ class LandingPage extends React.Component {
       <div>
         <h1>Welcome to landing page!</h1>
         <QuoteDisplay />
+        <CocktailUI />
       </div>
     );
   }
